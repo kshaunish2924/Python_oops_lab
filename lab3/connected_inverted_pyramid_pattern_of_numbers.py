@@ -1,9 +1,7 @@
-n = 5
-for i in range(n):
-    for j in range(n, i, -1):
-        print(j, end=' ')
-    for j in range(i):
-        print(i + 1, end=' ')
-    for j in range(i + 1, n + 1):
-        print(j, end=' ')
+for i in range(1,6):
+    for j in range(5,i-1,-1):
+        print(j, end=" ")
+    for j in range(i,6):
+        print(j, end=" ")
     print()
+    
